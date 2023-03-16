@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Montserrat";
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+::placeholder,
+button,
+form {
+    font-family: "Montserrat";
+}
+
+a {
+    color: white;
+    font-weight: 600;
+}
+
+.sign-out-btn{
+    margin-bottom: 40px;
+}
+
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.navbar a {
+    margin-right: 20px;
+}
+
+.blog-list-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* width: 50%; */
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.blog-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 73%;
+    margin-bottom: 65px;
+    background-color: #7e26cb;
+    padding: 36px;
+    border-radius: 50px;
+}
+
+
+
+.blog-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.blog-subject {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.blog-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+
+}
+
+.read-more-link {
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-page-subject {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.blog-page-author {
+    margin-left: auto;
+    margin-right: 33%;
+    margin-top: -13px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    top: 34%;
+    position: absolute;
+    transform: translate(0, -25%);
+}
+
+
+
+.form-container textarea {
+    height: 311px;
+}
+
+.form-container>* {
+    margin-top: 23px;
+}
